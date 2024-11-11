@@ -1,0 +1,117 @@
+/* General styles */
+.Main-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .project-name-box h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .more-btn {
+    margin-top: 10px;
+  }
+  
+  .more-btn button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .more-btn button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* When the ProjectDetails is shown */
+  .ProjectDetails {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Add transition for fade and slide */
+  }
+  
+  .ProjectDetails.visible {
+    opacity: 1;
+    transform: translateY(0); /* Slide in effect */
+  }
+  
+  .ProjectDetails h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .ProjectDetails p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .Main-box {
+      max-width: 100%;
+      margin: 10px;
+    }
+  
+    .project-name-box h1 {
+      font-size: 16px;
+    }
+  
+    .more-btn button {
+      padding: 6px 12px;
+    }
+  
+    .Card {
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Card {
+      padding: 10px;
+    }
+  
+    .project-image {
+      width: 100%;
+    }
+  
+    .project-name-box h1 {
+      font-size: 14px;
+    }
+  
+    .more-btn button {
+      font-size: 14px;
+    }
+  }
+  

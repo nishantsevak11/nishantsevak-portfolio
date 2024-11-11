@@ -1,24 +1,26 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';  // Use HashRouter here
 import Navbar from './components/Navbar'
 import HomePage from './components/HomePage'
-import Education from './components/Education'
+import ContactUs from './components/ContactUs';
+
 import Experience from './components/Experience'
 import Projects from './components/Projects'
-import Card from './components/Card';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router> {/* Changed from BrowserRouter to HashRouter */}
       <div className='flex flex-col'>
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/education" element={<Education />} />
+          {/* <Route path="/education" element={<Education />} /> */}
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/contactUs" element={<ContactUs />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
+
 export default App;

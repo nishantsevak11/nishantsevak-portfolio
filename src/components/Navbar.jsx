@@ -21,16 +21,6 @@ const Navbar = () => {
           Home
         </NavLink>
 
-        {/* Education Button */}
-        <NavLink 
-          to="/education" 
-          className={({ isActive }) => 
-            `${baseStyle} ${isActive ? activeStyle : hoverStyle}`
-          }
-        >
-          Education
-        </NavLink>
-
         {/* Experience Button */}
         <NavLink 
           to="/experience" 
@@ -51,16 +41,15 @@ const Navbar = () => {
           Projects
         </NavLink>
 
-        {/* Contact Button */}
-        {/* Uncomment this if you want the Contact button */}
-        {/* <NavLink 
-          to="/contact" 
+        
+        <NavLink 
+          to="/contactUs" 
           className={({ isActive }) => 
             `${baseStyle} ${isActive ? activeStyle : hoverStyle}`
           }
         >
           Contact
-        </NavLink> */}
+        </NavLink>
       </div>
     </div>
   );
