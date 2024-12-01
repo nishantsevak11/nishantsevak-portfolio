@@ -65,8 +65,8 @@
 
 /* Large screen adjustments */
 @media (max-width: 1600px) {
-    .box {
-        flex-direction: column; /* Stack the text and image vertically */
+    .ssocialLink{
+        right: 0;
     }
 
     .text-box {
@@ -98,6 +98,9 @@
 
 /* Small screens (mobile devices) */
 @media (max-width: 768px) {
+    .box {
+        flex-direction: column; /* Stack the text and image vertically */
+    }
     .mainContainer {
         flex-direction: column; /* Stack items */
         height: auto;

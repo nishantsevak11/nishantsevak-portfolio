@@ -27,7 +27,7 @@ function Home() {
                 <div className='line'>
 
                 </div>
-                <img className='social-icon' src="/linkedin.png" alt="" />
+                <img className='social-icon' src="/linkedin.png"  alt="" />
                 <img className='social-icon' src="/whatsapp.png" alt="" />
                 <img className='social-icon' src="/facebook.png" alt="" />
             </div>

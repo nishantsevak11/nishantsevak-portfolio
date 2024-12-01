@@ -72,11 +72,9 @@ h1{
       .skills-container{
         margin: 1%;
         width: 90%;
-        border: 1px solid blue;
     }
     .experience-container{
         margin: 1%;
         width: 90%;
-        border: 1px solid yellow;
     }
   }
