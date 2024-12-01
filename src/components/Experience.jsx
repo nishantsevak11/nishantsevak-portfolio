@@ -1,6 +1,6 @@
 import React from 'react';
 import './Experience.css'
-
+import Card2 from './components/Card2'
 function Experience() {
 
 
