@@ -77,9 +77,4 @@ h1{
         margin: 1%;
         width: 90%;
     }
-   .skills {
-        grid-template-columns: repeat(3, 1fr); /* Ensure at least 3 skills in a row */
-          justify-items: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    }
   }
