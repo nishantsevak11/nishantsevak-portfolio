@@ -7,45 +7,47 @@ const Projects = () => {
 
     const projects = [
         {
+            name: "Personalised Quates Sender",
+            description: "Built a platform that serds personalised quotes to users based on their preferences.",
+            technologies: ["Reactjs", "Tailwind CSS", "JavaScript", "Node.js", "Express.js", "MongoDB", "JWT Auth", "GEMENI API"],
+            liveLink: "https://savera-red.vercel.app/",
+            githubLink: "#",
+            thumbnail: "/p1.png"
+        },
+        {
             name: "Personal Portfolio Website",
-            description: "Developed a platform where users can explore multiple free games across categories, view game overviews, screenshots,and be redirected to play",
-            technologies: ["HTML", "CSS", "JavaScript", "API"],
-            liveLink: "https://nishantsevak11.github.io/Games-Project/",
-            githubLink: "https://github.com/nishantsevak11/Games-Project",
-            thumbnail: "/project1.png" // Path to the thumbnail image
+            description: "Developed a unique personal portfolio website using React.js and Tailwind CSS. The website showcases my skills, projects, and provides information about me.",
+            technologies: ["React.js", "Framer-motion", "JavaScript"],
+            liveLink: "https://my-portflio-ruddy.vercel.app/",
+            githubLink: "#",
+            thumbnail: "/p2.png" 
+        },
+       
+        {
+            name: "Notes Web App",
+            description: "A simple web application that allows users to create, read, update, and delete notes. But this is advance note app we can attch images and audio to text trasrcibe also supports",
+            technologies: ["Next.js", "MONGODB", "ShadCn"],
+            liveLink: "https://note-app-eta-five.vercel.app/",
+            githubLink: "https://github.com/nishantsevak11/note-app",
+            thumbnail: "/p3.png" // Path to the thumbnail image
         },
         {
-            name: "Personalised Color Palette website",
-            description: "Built a web app for personalized color palette generation using React.js, CSS, and Tailwind CSS",
-            technologies: ["React", "Talwind", "CSS", "Mirage API"],
-            liveLink: "https://attyre-nishant-sevaks-projects.vercel.app/",
-            githubLink: "https://github.com/nishantsevak11/Games-Project",
-            thumbnail: "https://media.licdn.com/dms/image/D4D12AQEcrYJ5eJBgSQ/article-cover_image-shrink_720_1280/0/1680629329325?e=2147483647&v=beta&t=U-9tANxIZibZ5gDqQMIAlCy7GrgzGj-5EvayUXOpUrA" // Path to the thumbnail image
+            name: "Notes maker from url",
+            description: "A simple website that takes a url and generates a note from it. It is built using Next.js and usage gemini api for note generation.",
+            technologies: ["Next.js", "ShadCN", "GEMENI API"],
+            liveLink: "https://notify-cpp9lej0r-nsevak61-gmailcoms-projects.vercel.app/",
+            githubLink: "#",
+            thumbnail: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Path to the thumbnail image
         },
         {
-            name: "Spotify Clone",
-            description: "A simple Spotify like app built with html , css and javascript play local musics with json data",
-            technologies: ["HTML", "CSS", "Javascript"],
-            liveLink: "https://example-taskmanager.com",
-            githubLink: "https://github.com/username/task-manager",
-            thumbnail: "https://storage.googleapis.com/pr-newsroom-wp/1/2023/12/Spotify_Logo_RGB_White-1.png" // Path to the thumbnail image
+            name: "Quiz website UI",
+            description: "A quiz website UI built with react.js . Modern and professional clean design that enhance user experience.",
+            technologies: ["React.js", "Tailwind CSS", "JavaScript","Framer-motion"],
+            liveLink: "https://quizapp-orpin-seven.vercel.app/",
+            githubLink: "https://github.com/nishantsevak11/quizapp",
+            thumbnail: "/p4.png" // Path to the thumbnail image
         },
-        {
-            name: "Rating Project",
-            description: "A React project that allows users to rate and comment on different products. It uses React Router for navigation and React Context for state management.",
-            technologies: ["React", "React Router", "React Context"],
-            liveLink: "https://rating-project-gamma.vercel.app/",
-            githubLink: "https://rating-project-gamma.vercel.app",
-            thumbnail: "https://askcaddle.com/wp-content/uploads/2024/03/Why-Ratings-and-Reviews-are-Important-for-Your-Business-featured-image.jpg" // Path to the thumbnail image
-        },
-        // {
-        //   name: "Weather App",
-        //   description: "A weather forecasting application that provides real-time weather updates based on the user's location. It uses the OpenWeather API to fetch data and is built with JavaScript and HTML.",
-        //   technologies: ["JavaScript", "HTML", "CSS", "OpenWeather API"],
-        //   liveLink: "https://example-weatherapp.com",
-        //   githubLink: "https://github.com/username/weather-app",
-        //   thumbnail: "/project2.jpg" // Path to the thumbnail image
-        // }
+      
     ];
 
 

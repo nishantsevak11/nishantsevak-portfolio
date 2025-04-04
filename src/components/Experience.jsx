@@ -6,12 +6,13 @@ function Experience() {
 
    const experiences = [
       {
-         year: "2024",
-         role: "Frontend Developer",
-         company: "",
-         desc: ` Built a web app for personalized color palette generation using React.js, CSS, and Tailwind CSS.
-          Developed a responsive design compatible with desktop and mobile devices.
-           Technologies used: React.js, CSS, Tailwind CSS, Context API, Mirage.js`
+         year: "2025",
+         role: "Full Stack Developer intern",
+         company: "Reetape Technologies",
+         desc: ` Developed a web application using React.js, Node.js, and Express.js.
+          Implemented user authentication and authorization using JSON Web Tokens (JWT).
+           Integrated a MySQL database to store and retrieve user data.
+            Technologies used: React.js, Node.js, Express.js, JWT, MySQL`
       }
    ];
 
@@ -19,7 +20,7 @@ function Experience() {
    return (
       <div className='container'>
 
-         <div className="skills-container">
+         <div className="skills-container grid ">
             <h1>Skills</h1>
             <div className='skills'>
                <div className='skill'>
